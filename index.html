@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  
+  <base target="_parent"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap"><link rel="stylesheet" href="https://mdbootstrap.com/api/snippets/static/download/MDB5-Free_7.3.2/css/mdb.min.css">
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <!-- Container wrapper -->
+    <div class="container">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="#"><img id="MDB-logo"
+          src="data:image/png;base64,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" alt="MDB Logo"
+          draggable="false" height="30" /></a>
+
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+        data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Left links -->
+        <ul class="navbar-nav me-3">
+          <li class="nav-item">
+            <a class="nav-link active d-flex align-items-center" aria-current="page" href="#"><i
+                class="fas fa-bars pe-2"></i>Menu</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+
+        <form class="d-flex align-items-center w-100 form-search">
+          <div class="input-group">
+            <button class="btn btn-light dropdown-toggle shadow-0" type="button" data-mdb-toggle="dropdown"
+              aria-expanded="false" style="padding-bottom: 0.4rem;">
+              All
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark fa-ul">
+              <li>
+                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i class="fas fa-search"></i></span>All</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                      class="fas fa-film"></i></span>Titles</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i class="fas fa-tv"></i></span>TV
+                  Episodes</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                      class="fas fa-user-friends"></i></span>Celebs</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                      class="fas fa-building"></i></span>Companies</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                      class="fas fa-key"></i></span>Keywords</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"><span class="fa-li pe-2"><i
+                      class="fas fa-search-plus"></i></span>Advanced
+                  search<i class="fas fa-chevron-right ps-2"></i></a>
+              </li>
+            </ul>
+            <input type="search" class="form-control" placeholder="Search" aria-label="Search" />
+          </div>
+          <a href="#!" class="text-white"><i class="fas fa-search ps-3"></i></a>
+        </form>
+
+        <ul class="navbar-nav ms-3">
+          <li class="nav-item me-3">
+            <a class="nav-link d-flex align-items-center" href="#!">Help</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex align-items-center me-3" href="#!">
+              <i class="fas fa-bookmark pe-2"></i> Favorites
+            </a>
+          </li>
+          <li class="nav-item" style="width: 65px;">
+            <a class="nav-link d-flex align-items-center" href="#!">Log In</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+  <img src = "https://images.vexels.com/content/151239/preview/striped-3d-cube-doodle-aee2bd.png">
+
+  <!-- <form action="/action_page.php">
+    <label for="gsearch">Ask Us Anything,</label>
+    <input type="search" id="gsearch" name="gsearch">
+    <button id="special">press me!</button>  -->
+    <h3>Notion</h3>
+  
+    <h1>Learn, Scroll, Plan</h1>
+  <h2>Turn ideas into Action, <br>
+    and boredom into attraction</br> </h2>
+  <button id="bob_the_button"type="button">Get Notion Free</button>
+
+  <img src="data:image/png;base64,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" alt="Italian Trulli">
+
+  <img src="https://blog-cdn.everhour.com/blog/wp-content/uploads/2022/09/ezgif-3-26600fc88d.jpg" alt="Italian Trulli" style="color:white;">
+
+<h1> <br> "Your AI everything app."<br> <br> Forbes <br> </h1>
+  
+ 
+  
+
+  
+  <table>
+    <tr>
+      <th>Company</th>
+      <th>Contact</th> 
+      <th>Resources</th>
+    </tr>
+    <tr>
+      <td>About Us /</td>
+      <td> <a href="url">find emails here </a> / </td> 
+      <td><a href="url">help </a></td>
+    </tr>
+    <tr>
+      <td>Careers /</td>
+      <td><a href="https://www.instagram.com">dm us on Instagram! </a>/ </td> 
+      <td><a href="url">pricing </a></td>
+    </tr>
+  </table>
+
+
+
+  
+</body>
+
+</html>
